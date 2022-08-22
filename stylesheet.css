@@ -10,3 +10,20 @@ header {
 .container {
     display: flex;
 }
+
+ul {
+    display: flex;
+}
+
+.container .onetext {
+    flex-direction: column;
+}
+
+.two {
+    flex-direction: column;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+}
