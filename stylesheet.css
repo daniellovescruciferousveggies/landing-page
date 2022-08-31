@@ -9,6 +9,7 @@ header {
 
 .container {
     display: flex;
+    flex: auto;
 }
 
 ul {
@@ -16,7 +17,19 @@ ul {
 }
 
 .container .onetext {
+    display: flex;
     flex-direction: column;
+}
+
+.one {
+    display: flex;
+    align-items: center;
+}
+
+.container .onepicture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .two {
@@ -26,4 +39,8 @@ ul {
 .images {
     display: flex;
     flex-direction: row;
+}
+
+footer {
+    
 }
